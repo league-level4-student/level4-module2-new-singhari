@@ -4,7 +4,7 @@ public class TernaryOperatorDemo {
 
     /*
      * A ternary operator is a "syntactic sugar" alternative to if/else
-     * statements that allow you to write an if/else statement on a single line
+     * statements that allows you to write an if/else statement on a single line
      * and set a value.
      */
 
