@@ -46,7 +46,7 @@ public class TernaryOperatorDemo {
          * WARNING: Ternary operators can be used to improve the readability of
          * your code if used sparingly for very simple if/else statements.
          * 
-         * HOWEVER, you have nested Ternary statements or more complex if/else
+         * However, if you have nested Ternary statements or more complex if/else
          * statements please use switch statements or normal if/else statements
          * for the sake of all who must read your code.
          */
