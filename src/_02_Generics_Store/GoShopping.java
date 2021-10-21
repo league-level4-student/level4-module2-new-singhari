@@ -2,8 +2,12 @@ package _02_Generics_Store;
 
 public class GoShopping {
 	// 1. Look through other classes to see how they all interact.
+	//
 	//    There is a generic Cart class that can hold different 
 	//    types of objects.
+	//
+	//    Candy and Cereal are Food objects
+	//    Clothing and Toy are NonFood objects.
 	
 	public static void main(String[] args) {
 		// 2. Create a Cart object of type Candy
@@ -22,7 +26,7 @@ public class GoShopping {
 		
 		// 7. Comment out the code you have so far
 		
-		// 8. Repeat steps 2-4 for a Clothing Cart and a Toy Cart
+		// 8. Repeat steps 2-5 for a Clothing Cart and a Toy Cart
 		
 		
 		
