@@ -1,25 +1,38 @@
 package _02_Generics_Store;
 
 public class GoShopping {
+	// 1. Look through other classes to see how they all interact.
+	//    There is a generic Cart class that can hold different 
+	//    types of objects.
+	
 	public static void main(String[] args) {
-		// 1. Create 2 Cart objects(Candy, Cereal)
-
-		// 2. Add items to each cart
-
-		// 3. Call the showCart() method on each cart
-
-		// 4. Run the code
+		// 2. Create a Cart object of type Candy
 		
-		// 5. Comment out the code you have so far
+		// 3. Create another Cart object of type Cereal
 		
-		// 6. Repeat steps 1-3 for a Clothing Cart and a Toy Cart
+		// 4. Add a few items to EACH cart
+		
+		
+		
+		
+		// 5. Call the showCart() method on EACH cart
+		
+		
+		// 6. Run the code
+		
+		// 7. Comment out the code you have so far
+		
+		// 8. Repeat steps 2-4 for a Clothing Cart and a Toy Cart
+		
+		
+		
 		
 		// Why are there errors?
 		
-		// 7. Modify the Cart class so that this code compiles
+		// 9. Modify the Cart class so that this code compiles
 		// HINT: There are 3 lines of code to edit
 				
-		// 8. Run the code. Does it work?
+		// 10. Run the code. Does it work?
 		
 	}
 }
