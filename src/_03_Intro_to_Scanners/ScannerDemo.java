@@ -24,8 +24,9 @@ public class ScannerDemo {
          * Eclipse's console. This may change depending on the environment where
          * are running your program or the input/output stream you are using.
          */
-
-        
+    	Scanner scan = new Scanner(System.in);
+        System.out.println("What's your name?");
+        String name = scan.nextLine();
         
         /*
          * 2. Use a syso to ask the user for their name and then use the Scanner
@@ -51,8 +52,8 @@ public class ScannerDemo {
          * See if you can find the scanner method that does this without relying
          * on Integer.parseInt().
          */
-
-        
+        System.out.println("Age?");
+        int age = scan.nextInt();
         
         /*
          * 4.) Try asking the user for another piece of information that's not a
@@ -63,7 +64,7 @@ public class ScannerDemo {
          */
 
         // 5.) Print the user's data to the console nicely formatted.
-
+        System.out.println("Hello "+name+" of "+age+" age.");
         
         
         /*
@@ -72,7 +73,7 @@ public class ScannerDemo {
          * Note: When using a Scanner with the System.in input stream in larger
          * programs only close the scanner when your program is completely done.
          */
-
+        scan.close();
     }
 
 }
